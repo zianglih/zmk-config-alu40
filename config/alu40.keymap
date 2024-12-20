@@ -11,15 +11,15 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define MOVE_UP MOVE_Y(-1100)
-#define MOVE_DOWN MOVE_Y(1100)
-#define MOVE_LEFT MOVE_X(-1300)
-#define MOVE_RIGHT MOVE_X(1300)
+#define MY_MOVE_UP MOVE_Y(-1100)
+#define MY_MOVE_DOWN MOVE_Y(1100)
+#define MY_MOVE_LEFT MOVE_X(-1300)
+#define MY_MOVE_RIGHT MOVE_X(1300)
 
-#define SCRL_UP SCRL_Y(11)
-#define SCRL_DOWN SCRL_Y(-11)
-#define SCRL_LEFT SCRL_X(-13)
-#define SCRL_RIGHT SCRL_X(13)
+#define MY_SCRL_UP SCRL_Y(11)
+#define MY_SCRL_DOWN SCRL_Y(-11)
+#define MY_SCRL_LEFT SCRL_X(-13)
+#define MY_SCRL_RIGHT SCRL_X(13)
 
 &mmv {
     time-to-max-speed-ms=<160>;
