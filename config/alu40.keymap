@@ -79,8 +79,8 @@
 
         layer_4 {
             bindings = <
-&none &mkp LCLK  &mmv MY_MOVE_UP  &mkp RCLK &none &none &none        &none &none &none &none   &none
-&none &mmv MY_MOVE_LEFT  &mmv MY_MOVE_DOWN  &mmv MY_MOVE_RIGHT  &none  &none  &mmv MY_MOVE_LEFT &mmv MY_MOVE_DOWN &mmv MY_MOVE_UP &mmv MY_MOVE_RIGHT &none   &none
+&none &mkp LCLK  &mmv MOVE_UP  &mkp RCLK &none &none &none        &none &none &none &none   &none
+&none &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none   &none
 &none &none   &none   &none  &none  &none &none &none   &none   &none  &none          &none
 &none &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &none  &mkp LCLK      &mkp RCLK      &mkp 3       &none &none   &none
             >;
@@ -88,8 +88,8 @@
 
         layer_5 {
             bindings = <
-&none  &mkp LCLK  &msc MY_SCROLL_UP  &mkp RCLK  &none  &none        &none            &none            &none          &none             &none  &none
-&none  &msc MY_SCROLL_LEFT  &msc MY_SCROLL_DOWN  &msc MY_SCROLL_RIGHT  &none  &none        &msc MY_SCROLL_LEFT &msc MY_SCROLL_DOWN &msc MY_SCROLL_UP &msc MY_SCROLL_RIGHT &none  &none
+&none  &mkp LCLK  &msc SCROLL_UP  &mkp RCLK  &none  &none        &none            &none            &none          &none             &none  &none
+&none  &msc SCROLL_LEFT  &msc SCROLL_DOWN  &msc SCROLL_RIGHT  &none  &none        &msc SCROLL_LEFT &msc SCROLL_DOWN &msc SCROLL_UP &msc SCROLL_RIGHT &none  &none
 &none  &none  &none  &none  &none  &none        &none            &none            &none          &none             &none  &none
 &none  &none  &none  &none  &none  &none        &mkp LCLK        &mkp RCLK        &mkp 3         &none             &none  &none
             >;
