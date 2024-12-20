@@ -69,8 +69,8 @@
 
         layer_4 {
             bindings = <
-&none &mkp LCLK  &mmv MOVE_UP MOVE_Y(-1100)  &mkp RCLK &none &none &none        &none &none &none &none   &none
-&none &mmv MOVE_LEFT MOVE_X(-1300)  &mmv MOVE_DOWN MOVE_Y(1100)  &mmv MOVE_RIGHT MOVE_X(1300)  &none  &none  &mmv MOVE_LEFT MOVE_X(-1300) &mmv MOVE_DOWN MOVE_Y(1100) &mmv MOVE_UP MOVE_Y(-1100) &mmv MOVE_RIGHT MOVE_X(1300) &none   &none
+&none &mkp LCLK  &mmv MOVE_Y(-1100)  &mkp RCLK &none &none &none        &none &none &none &none   &none
+&none &mmv MOVE_X(-1300)  &mmv MOVE_Y(1100)  &mmv MOVE_X(1300)  &none  &none  &mmv MOVE_X(-1300) &mmv MOVE_Y(1100) &mmv MOVE_Y(-1100) &mmv MOVE_X(1300) &none   &none
 &none &none   &none   &none  &none  &none &none &none   &none   &none  &none          &none
 &none &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &none  &mkp LCLK      &mkp RCLK      &mkp 3       &none &none   &none
             >;
@@ -78,8 +78,8 @@
 
         layer_5 {
             bindings = <
-&none  &mkp LCLK  &msc SCRL_UP MOVE_Y(11)  &mkp RCLK  &none  &none        &none            &none            &none          &none             &none  &none
-&none  &msc SCRL_LEFT MOVE_X(-13)  &msc SCRL_DOWN MOVE_Y(-11)  &msc SCRL_RIGHT MOVE_X(13)  &none  &none        &msc SCRL_LEFT MOVE_X(-13) &msc SCRL_DOWN MOVE_Y(-11) &msc SCRL_UP MOVE_Y(11) &msc SCRL_RIGHT MOVE_X(13) &none  &none
+&none  &mkp LCLK  &msc MOVE_Y(11)  &mkp RCLK  &none  &none        &none            &none            &none          &none             &none  &none
+&none  &msc MOVE_X(-13)  &msc MOVE_Y(-11)  &msc MOVE_X(13)  &none  &none        &msc MOVE_X(-13) &msc MOVE_Y(-11) &msc MOVE_Y(11) &msc MOVE_X(13) &none  &none
 &none  &none  &none  &none  &none  &none        &none            &none            &none          &none             &none  &none
 &none  &none  &none  &none  &none  &none        &mkp LCLK        &mkp RCLK        &mkp 3         &none             &none  &none
             >;
