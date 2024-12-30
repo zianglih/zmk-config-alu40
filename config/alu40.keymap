@@ -55,28 +55,28 @@
 
         layer_3 {
             bindings = <
-&kp C_PWR &kp N1 &kp N2     &kp N3    &kp N4     &kp N5      &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &kp DELETE
-&none     &none  &none      &none     &none      &none       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp RET  &none
-&none     &none  &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none     &none     &none     &none     &none    &none
-&none     &none  &mo 5      &mo 4     &mo 5      &none       &mkp LCLK &kp LSHFT &kp LCTRL &kp LALT  &kp LGUI &none
+&kp C_PWR &kp N1 &kp N2     &kp N3    &kp N4     &kp N5      &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp DELETE
+&none     &none  &none      &none     &none      &none       &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp RET  &none
+&none     &none  &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &none    &none     &none     &none     &none    &none
+&none     &none  &mo 5      &mo 4     &mo 5      &none       &mkp MB1 &kp LSHFT &kp LCTRL &kp LALT  &kp LGUI &none
             >;
         };
 
         layer_4 {
             bindings = <
-&none &mkp LCLK          &mmv MOVE_Y(-1100) &mkp RCLK         &none     &none &none              &none             &none              &none             &none &none
+&none &mkp MB1           &mmv MOVE_Y(-1100) &mkp MB2          &none     &none &none              &none             &none              &none             &none &none
 &none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100)  &mmv MOVE_X(1300) &none     &none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100) &mmv MOVE_Y(-1100) &mmv MOVE_X(1300) &none &none
 &none &none              &none              &none             &none     &none &none              &none             &none              &none             &none &none
-&none &kp LGUI           &kp LALT           &kp LCTRL         &kp LSHFT &none &mkp LCLK          &mkp RCLK         &mkp 3             &none             &none &none
+&none &kp LGUI           &kp LALT           &kp LCTRL         &kp LSHFT &none &mkp MB1           &mkp MB2          &mkp MB3           &none             &none &none
             >;
         };
 
         layer_5 {
             bindings = <
-&none &mkp LCLK        &msc MOVE_Y(11)  &mkp RCLK       &none &none &none            &none            &none           &none           &none &none
+&none &mkp MB1         &msc MOVE_Y(11)  &mkp MB2        &none &none &none            &none            &none           &none           &none &none
 &none &msc MOVE_X(-13) &msc MOVE_Y(-11) &msc MOVE_X(13) &none &none &msc MOVE_X(-13) &msc MOVE_Y(-11) &msc MOVE_Y(11) &msc MOVE_X(13) &none &none
 &none &none            &none            &none           &none &none &none            &none            &none           &none           &none &none
-&none &none            &none            &none           &none &none &mkp LCLK        &mkp RCLK        &mkp 3          &none           &none &none
+&none &none            &none            &none           &none &none &mkp MB1         &mkp MB2         &mkp MB3        &none           &none &none
             >;
         };
     };
