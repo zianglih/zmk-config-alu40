@@ -37,8 +37,8 @@
 
         lower {
             bindings = <
-&kp ESC  &kp N1   &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
-&kp CAPS &kp AT   &kp DLLR &none     &kp RET   &kp PSCRN &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
+&kp CAPS &kp N1   &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
+&kp ESC  &kp AT   &kp DLLR &none     &kp RET   &kp PSCRN &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
 &kp EXCL &kp AMPS &kp LGUI &kp LALT  &kp LCTRL &kp LSHFT &kp INS   &kp SLCK &kp PAUSE_BREAK &kp COMMA &kp DOT  &kp EXCL
 &none    &kt LGUI &kt LALT &kt LCTRL &kt LSHFT &none     &lt 2 RET &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
             >;
