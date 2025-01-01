@@ -37,10 +37,10 @@
 
         lower {
             bindings = <
-&kp CAPS &kp N1   &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
-&kp ESC  &kp AT   &kp DLLR &none     &kp RET   &kp PSCRN &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
+&kp ESC  &kp N1   &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
+&kp CAPS &kp AT   &kp DLLR &none     &kp RET   &kp PSCRN &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
 &kp EXCL &kp AMPS &kp LGUI &kp LALT  &kp LCTRL &kp LSHFT &kp INS   &kp SLCK &kp PAUSE_BREAK &kp COMMA &kp DOT  &kp EXCL
-&none    &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none     &lt 2 RET &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
+&none    &kt LGUI &kt LALT &kt LCTRL &kt LSHFT &none     &lt 2 RET &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
             >;
         };
 
@@ -64,10 +64,10 @@
 
         layer_4 {
             bindings = <
-&none &mkp MB1           &mmv MOVE_Y(-1100) &mkp MB2          &none     &none &none              &none             &none              &none             &none &none
-&none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100)  &mmv MOVE_X(1300) &none     &none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100) &mmv MOVE_Y(-1100) &mmv MOVE_X(1300) &none &none
-&none &none              &none              &none             &none     &none &none              &none             &none              &none             &none &none
-&none &kp LGUI           &kp LALT           &kp LCTRL         &kp LSHFT &none &mkp MB1           &mkp MB2          &mkp MB3           &none             &none &none
+&none &mkp MB1           &mmv MOVE_Y(-1100) &mkp MB2          &none &none &none              &none             &none              &none             &none &none
+&none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100)  &mmv MOVE_X(1300) &none &none &mmv MOVE_X(-1300) &mmv MOVE_Y(1100) &mmv MOVE_Y(-1100) &mmv MOVE_X(1300) &none &none
+&none &none              &none              &none             &none &none &none              &none             &none              &none             &none &none
+&none &none              &none              &none             &none &none &mkp MB1           &mkp MB2          &mkp MB3           &none             &none &none
             >;
         };
 
