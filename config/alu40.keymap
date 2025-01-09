@@ -37,16 +37,16 @@
 
         lower {
             bindings = <
-&kp CAPS &kp N1   &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
-&kp ESC  &kp AT   &kp DLLR &none     &kp RET   &kp PSCRN &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
-&kp EXCL &kp AMPS &kp LGUI &kp LALT  &kp LCTRL &kp LSHFT &kp INS   &kp SLCK &kp PAUSE_BREAK &kp COMMA &kp DOT  &kp EXCL
-&none    &kt LGUI &kt LALT &kt LCTRL &kt LSHFT &none     &lt 2 RET &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
+&kp CAPS &kp N1   &kp N2        &kp N3        &kp N4       &kp N5       &kp N6     &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
+&kp ESC  &kp AT   &kp DLLR      &kp C_PREV    &kp C_PP     &kp C_NEXT   &kp LEFT   &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
+&kp EXCL &kp AMPS &kp C_BRI_DEC &kp C_BRI_INC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &none    &none           &kp COMMA &kp DOT  &kp EXCL
+&none    &kp LGUI &kp LALT      &kp LCTRL     &kp LSHFT    &none        &lt 2 RET  &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
             >;
         };
 
         layer_2 {
             bindings = <
-&kp C_PWR     &kp F1        &kp F2    &kp F3     &kp F4    &kp F5     &kp F6     &kp F7       &kp F8       &kp F9                            &kp F10                                &kp C_PWR
+&kp F11       &kp F1        &kp F2    &kp F3     &kp F4    &kp F5     &kp F6     &kp F7       &kp F8       &kp F9                            &kp F10                                &kp F12
 &out OUT_TOG  &kp F11       &kp F12   &kp C_PREV &kp C_PP  &kp C_NEXT &kp HOME   &kp PG_DN    &kp PG_UP    &kp END                           &kp RET                                &none
 &kp C_BRI_DEC &kp C_BRI_INC &kp GLOBE &none      &none     &none      &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS &kp C_AC_SEARCH
 &none         &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT &none      &none      &none        &none        &none                             &none                                  &none
@@ -55,8 +55,8 @@
 
         layer_3 {
             bindings = <
-&bt BT_CLR   &kp N1        &kp N2       &kp N3       &kp N4       &kp N5       &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp DELETE
-&none        &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp RET  &none
+&kp C_PWR    &kp N1        &kp N2       &kp N3       &kp N4       &kp N5       &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp DELETE
+&none        &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp RET  &bt BT_CLR
 &out OUT_USB &out OUT_BLE  &none        &none        &none        &none        &none    &none     &none     &none     &none    &none
 &none        &none         &mo 5        &mo 4        &mo 5        &none        &mkp MB1 &kp LSHFT &kp LCTRL &kp LALT  &kp LGUI &none
             >;
