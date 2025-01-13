@@ -37,10 +37,10 @@
 
         lower {
             bindings = <
-&kp CAPS &kp N1   &kp N2        &kp N3        &kp N4       &kp N5       &kp N6     &kp N7   &kp N8          &kp N9    &kp N0   &kp BSPC
-&kp ESC  &kp AT   &kp DLLR      &kp C_PREV    &kp C_PP     &kp C_NEXT   &kp LEFT   &kp DOWN &kp UP          &kp RIGHT &kp HASH &kp CARET
-&kp EXCL &kp AMPS &kp C_BRI_DEC &kp C_BRI_INC &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &none    &none           &kp COMMA &kp DOT  &kp EXCL
-&none    &kp LGUI &kp LALT      &kp LCTRL     &kp LSHFT    &none        &lt 2 RET  &kp LPAR &kp STAR        &kp PRCNT &kp RPAR &none
+&kp CAPS &kp N1   &kp N2     &kp N3        &kp N4        &kp N5    &kp N6     &kp N7    &kp N8    &kp N9    &kp N0   &kp BSPC
+&kp ESC  &kp AT   &kp DLLR   &kp C_BRI_DEC &kp C_BRI_INC &kp PSCRN &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT &kp HASH &kp CARET
+&kp EXCL &kp AMPS &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP  &kp HOME   &kp PG_DN &kp PG_UP &kp END   &kp DOT  &kp EXCL
+&none    &kp LGUI &kp LALT   &kp LCTRL     &kp LSHFT     &none     &lt 2 RET  &kp LPAR  &kp STAR  &kp PRCNT &kp RPAR &none
             >;
         };
 
