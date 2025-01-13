@@ -39,7 +39,7 @@
             bindings = <
 &kp CAPS &kp N1   &kp N2     &kp N3       &kp N4       &kp N5    &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp BSPC
 &kp ESC  &kp AT   &kp DLLR   &kp C_VOL_DN &kp C_VOL_UP &kp PSCRN &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp HASH &kp CARET
-&kp EXCL &kp AMPS &kp C_MUTE &kp C_PREV   &kp C_NEXT   &kp C_PP  &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp DOT  &kp EXCL
+&kp EXCL &kp AMPS &kp C_MUTE &kp C_PREV   &kp C_NEXT   &kp C_PP  &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp INS  &kp EXCL
 &none    &kp LGUI &kp LALT   &kp LCTRL    &kp LSHFT    &none     &kp RET  &kp LPAR  &kp STAR  &kp PRCNT &kp RPAR &none
             >;
         };
@@ -57,7 +57,7 @@
             bindings = <
 &kp C_PWR    &kp N1       &kp N2       &kp N3        &kp N4        &kp N5       &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp DELETE
 &none        &bt BT_PRV   &bt BT_NXT   &kp C_BRI_DEC &kp C_BRI_INC &bt BT_SEL 0 &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp RET  &bt BT_CLR
-&out OUT_USB &out OUT_BLE &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &kp HOME &kp PG_DN &kp PG_UP &kp END   &none    &none
+&out OUT_USB &out OUT_BLE &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp SCLK &kp PAUSE_BREAK
 &none        &none        &mo 5        &mo 4         &mo 5         &none        &mkp MB1 &kp LSHFT &kp LCTRL &kp LALT  &kp LGUI &none
             >;
         };
